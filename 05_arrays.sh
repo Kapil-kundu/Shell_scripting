@@ -26,6 +26,13 @@ echo "values from 1-3 are ${myFirstArray[*]:1:3}"
 
 
 
+# updating out array with new value
+myFirstArray+=( New 30 4 12 "hey how are you")
+echo "values in my array are ${myFirstArray[*]}"
+echo "length of my  existing array is ${#myFirstArray[*]}"
+
+
+
 
 
 
